@@ -2,8 +2,8 @@
 import requests
 
 #TARGET_URL = "https://jsonplaceholder.typicode.com/posts"
-TARGET_URL = "https://jsonplaceholder.typicode.com/invalid-route"
-
+#TARGET_URL = "https://jsonplaceholder.typicode.com/invalid-route"
+TARGET_URL = "https://httpbin.org/status/500"
 
 class HTTPStatusError(Exception):
     pass
